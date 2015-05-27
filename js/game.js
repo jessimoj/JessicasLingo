@@ -8,6 +8,15 @@ var button = document.getElementsByTagName("button")[0];
 button.addEventListener("click", function(){
 	var anvandarOrd = document.getElementsByTagName("input")[0].value;
 
+//HÄMTA RUTORNA OCH LÄGG I RÄTT RUTOR
+	var rutor = document.getElementsByTagName("input")[0].value;
+
+	var rutor = document.getElementsByTagName("td");
+
+	for(var i = 0; i < 5; i++) {
+		rutor[i].innerHTML = användarOrd[i];
+	}
+
 		if (valtOrd === anvandarOrd) {
 			alert("GRATTIIIIS!");
 		}
