@@ -1,3 +1,3 @@
-Ett spel till Z-tv.
+Ett spel till kanal 6.
 
 Massa cash
