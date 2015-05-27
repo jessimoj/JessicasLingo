@@ -17,10 +17,10 @@ button.addEventListener("click", function(){
 		rutor[i].innerHTML = anvandarOrd[i];
 
 			if (anvandarOrd[i] === valtOrd[i]) {
-				rutor[i].style.background = "green";
+				rutor[i].style.background = "#00FF7F";
 			}
 			else {
-				rutor[i].style.background = "red";
+				rutor[i].style.background = "#FF1493";
 			}
 	}
 
@@ -28,6 +28,6 @@ button.addEventListener("click", function(){
 			alert("GRATTIIIIS!");
 		}
 		else{
-			alert("OBS! FÖRSÖK IGEN!");
+			alert("Försök igen, kompis!");
 		}
 	});
