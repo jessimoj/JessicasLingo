@@ -1,9 +1,10 @@
 
 //Slumpar ett ord från listan
-var ordlista = ["mjauu", "malin", "banan"];
+var ordlista = ["syren", "trend", "storm"];
 var valtOrd = ordlista[Math.floor(Math.random()*3)];
 console.log(valtOrd);
 
+//Hämtar spelarens gissning
 var button = document.getElementsByTagName("button")[0];
 button.addEventListener("click", function(){
 	var anvandarOrd = document.getElementsByTagName("input")[0].value;
