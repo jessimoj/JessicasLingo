@@ -14,7 +14,6 @@ button.addEventListener("click", function(){
 
 	var rutor = document.getElementsByTagName("td");
 
-
 	for(var i = 0; i < 5; i++) {
 		rutor[i].innerHTML = anvandarOrd[i];
 
@@ -26,7 +25,6 @@ button.addEventListener("click", function(){
 			}
 	}
 
-	/*
 		if (valtOrd === anvandarOrd) {
 			alert("GRATTIIIIS!");
 		}
@@ -34,4 +32,3 @@ button.addEventListener("click", function(){
 			alert("Försök igen, kompis!");
 		}
 	});
-	*/
