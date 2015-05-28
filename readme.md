@@ -1,3 +1,3 @@
-Ett spel till kanal 6.
+Ett ordgissningsspel. 
 
-Massa cash
+Javascript kompletteringsuppgift
